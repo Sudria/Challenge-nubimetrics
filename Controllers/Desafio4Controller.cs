@@ -1,13 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using SudriaGonzalo.Models;
-using System.Collections.Generic;
 using System.Text;
 
 namespace SudriaGonzalo.Controllers
 {
-    [ApiController]
-    [Route("[controller]")]
+
     public class Desafio4Controller : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;
@@ -18,7 +16,6 @@ namespace SudriaGonzalo.Controllers
         }
 
 
-        [HttpGet("/[controller]")]
         public async Task<IActionResult> ApiCall()
         {
             var httpClient = _httpClientFactory.CreateClient();
