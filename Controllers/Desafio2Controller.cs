@@ -1,10 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 using SudriaGonzalo.Models;
-using System.Text.Json;
-using System.Text.Json.Nodes;
 
 namespace SudriaGonzalo_challenge.Controllers
 {
